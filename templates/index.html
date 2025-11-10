@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LordHozoo TikTok Report 2025</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            font-family: monospace;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid red;
+        }
+
+        h1 {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            background-color: black;
+            color: red;
+            border: 1px solid red;
+            padding: 5px;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: black;
+            color: red;
+            border: 1px solid red;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        #jarvis {
+            margin-top: 20px;
+            font-style: italic;
+        }
+        #footer {
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 40px;
+            background: black;
+            text-align: left;
+            font-size: small;
+        }
+        #spam-status{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LordHozoo TikTok Report 2025</h1>
+        <p>TikTok Report By LordHozoo 2025</p>
+        <form method="post">
+            <input type="text" name="username" placeholder="Masukkan Username TikTok" value="{{ username }}">
+            <button type="submit" name="action" value="start">Start Spam</button>
+            <button type="submit" name="action" value="stop">Stop Spam</button>
+        </form>
+        <p id="spam-status">{{ spam_status }}</p>
+        <div id="jarvis">
+            JARVIS: {{ jarvis }}
+        </div>
+    </div>
+    <div id="footer">
+        Created by LordHozoo 2026
+    </div>
+</body>
+</html>
